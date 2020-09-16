@@ -54,7 +54,6 @@
 
 .menu li {
     display: inline-block;
-    
 }
 
 .letter {
@@ -338,4 +337,9 @@ h2 {
 
 .copy-text {
     font: 15px Lato, sans-serif;
+}
+
+
+@media (min-width: 576px) {
+
 }

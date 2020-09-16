@@ -66,6 +66,7 @@
     text-align: center;
     background-color: #484848;
     height: 100%;
+    width: 100%;
 }
 
 .big-title {
@@ -76,6 +77,7 @@
 }
 
 .p-div-main {
+    width: 100%;
     padding: 0px 15rem 9px;
     font: 16px Lato, sans-serif;
     color: #dddddd;
@@ -339,7 +341,3 @@ h2 {
     font: 15px Lato, sans-serif;
 }
 
-
-@media (min-width: 576px) {
-
-}

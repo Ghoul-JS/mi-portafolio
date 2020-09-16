@@ -1,0 +1,116 @@
+@media screen and (max-width: 576px) {
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .ps-fixed {
+        position: fixed;
+    }
+
+    .col-md-12 {
+        padding: 0;
+        grid-column: 1 / -1;
+        margin-left: 2px;
+    }
+
+    .big-title {
+        font: 40px Lato, sans-serif;
+        text-align: center;
+        width: 90%;
+        margin-left: 2rem;
+        padding: 2rem;
+    }
+
+    .p-div-main {
+        padding: 0;
+        
+        padding: 1.5rem;
+    }
+
+    
+    .btn-work {
+        padding: 1.5rem;
+    }
+
+    .h2-sm {
+        width: 576px;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .p-content {
+        margin-bottom: 1rem;
+        width: 572px;
+        padding: 1rem;
+      
+    }
+
+    .row-sm {
+        width: 576px;
+    }
+
+    .div-col-sm-6-2 {
+        padding: 1rem;
+        margin-right: 0px;
+    }
+
+    .fa-envelope {
+        margin-top: 17px;
+    }
+
+    .fa-location-arrow {
+        margin-bottom: 17px ;
+    }
+
+    .progress-bar {
+        width: 550px;
+    }
+
+    .porcent-1 {
+        margin-left: 25rem;
+    }
+
+    .porcent-2 {
+        margin-left: 26.5rem;
+    }
+
+    .porcent-3 {
+        margin-left: 28rem;
+    }
+
+    .porcent-4 {
+        margin-left: 27.5rem;
+    }
+
+    .title-contact {
+        width: 100%;
+        text-align: center;
+    }
+
+    .row-contact {
+        width: 100%;
+        margin: 0 0 0 0;
+        padding-left: 1rem;
+    }
+
+    .row-contact-left, .row-contact-center, .row-contact-right {
+        padding: 10px;
+        width: 100%;
+        padding: 0;
+        margin-bottom: 1rem;
+    }
+
+    .span-sm {
+        width: 600px;
+    }
+
+    .row-social {
+        width: 576px;
+    }
+
+    .txta-size .input-field {
+        width: 100%;
+        margin: 0;
+    }
+}

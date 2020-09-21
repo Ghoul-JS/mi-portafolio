@@ -21,13 +21,14 @@
 }
 
 .container {
-    /* width: 90%; */
+    width: 90%;
     height: 50px;
     background-color: #484848;
     display: flex;
+    /* justify-content: space-around; */
     padding: 0px 15px;
     margin-left: 5%;
-    
+    text-align: right;   
 }
 
 .navbar-link {
@@ -42,11 +43,13 @@
    padding: 0;
    width: 100%;
    max-width: 1000px;
-   /* margin: auto; */
+   margin: auto;
+   justify-content: space-between;
    /* text-align: right; */
-   position: relative;
+
+   /* position: relative;
    left: 35rem;
-   top: 1rem;
+   top: 1rem; */
 }
 
 .menu li a {

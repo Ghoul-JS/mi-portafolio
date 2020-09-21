@@ -124,6 +124,10 @@
         margin: auto;
         width: 100%;
     }
+
+    .cner-f {  
+       background-color: #f1f1f1       
+    }
 }
 
 @media (max-width: 768px) {

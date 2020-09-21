@@ -12,7 +12,7 @@
 
 <body>
     <header class="nav-wrapper ps-fixed">
-        <nav class="nav-custom">
+        <nav class="nav-custom sapace-between">
             <div class="container">
                 <a class="navbar-link" href="index.html">Castro</a>
 
@@ -34,10 +34,23 @@
                     </li>
                 </ul>
             </div>
+        
+            <ul id="nav">   
+                <li id="item"><a href="#"><i class="fas fa-bars"></i></a>  
+                  <ul id="despliegue">
+                    <li><a class="navbar-link" href="#">Inicio</a></li>
+                    <li><a class="navbar-link" href="#about">Acerca de</a></li>
+                    <li><a class="navbar-link" href="#">Servicios</a></li>
+                    <li><a class="navbar-link" href="#">Trabajos</a></li>
+                    <li><a class="navbar-link" href="#contact">Contacto</a></li>
+                  </ul>
+                </li>           
+            </ul>
+    
         </nav>
     </header>
 
-    <div class="div-main">
+    <div class="div-main div-main-lg">
         <h1 class="big-title col-md-12">
             YO SOY JOSE CASTRO
         </h1>
@@ -51,16 +64,16 @@
     </div>
 
     <section id="about" class="section-about ">
-        <div class="div-about col-md-12">
-            <div class="row ">
-                <div class="col-1 col-md-12">
-                    <div class="about-content col-md-12">
-                        <h2 class="h2-sm">Hola! Soy Jose Castro</h2>
+        <div class="div-about col-md-12 col-xl-12">
+            <div class="row">
+                <div class="col-1 col-md-12 col-xl-12">
+                    <div class="about-content col-md-12 col-xl-12">
+                        <h2 class="h2-sm h2-xl">Hola! Soy Jose Castro</h2>
                         <p class="p-content">Soy diseñador web semi-junior de Colombia Huila, me gusta aprender y crear
                             cosas nuevas, este es mi portafolio, el cual estaré desarrollando poco a poco hasta hacerlo
                             unos de mis grandes proyectos como novato.</p>
 
-                        <div class="row row-sm">
+                        <div class="row row-sm row-xl">
                             <div class="div-col-sm-6">
                                 <div class="div-margin">
                                     <i class="fas fa-envelope">
@@ -112,36 +125,36 @@
                     </ul>
                 </div>
 
-                <div class="row-progress col-md-12">
-                    <div>
+                <div class="row-progress col-md-12 progress-lx">
+                    <div class="bar-size">
                         <p class="p-progress">
-                            HTML5, CSS3 <span class="porcent-1">40%</span>
+                            HTML5, CSS3: 40%
                         </p>
                         <progress class="progress-bar" max="100" value="40"></progress>
                     </div>
 
-                    <div class="row">
+                    <div class="bar-size">
                         <div>
                             <p class="p-progress">
-                                JavaScript <span class="porcent-2">50%</span>
+                                JavaScript: 50%
                             </p>
                             <progress class="progress-bar" max="100" value="50"></progress>
                         </div>
                     </div>
 
-                    <div class="row">
+                    <div class="bar-size">
                         <div>
                             <p class="p-progress">
-                                Python <span class="porcent-3">30%</span>
+                                Python: 30% 
                             </p>
                             <progress class="progress-bar" max="100" value="30"></progress>
                         </div>
                     </div>
 
-                    <div class="row">
+                    <div class="bar-size">
                         <div>
                             <p class="p-progress">
-                                Express <span class="porcent-4">58%</span>
+                                Express: 58% 
                             </p>
                             <progress class="progress-bar" max="100" value="58"></progress>
                         </div>
